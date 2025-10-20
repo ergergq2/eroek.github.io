@@ -61,7 +61,7 @@ title.Name = "Title"
 title.Size = UDim2.new(1,-22,0,34)
 title.Position = UDim2.new(0,12,0,6)
 title.BackgroundTransparency = 1
-title.Text = "Admin Command Script"
+title.Text = "RINGTA"
 title.TextColor3 = Color3.fromRGB(235,235,238)
 title.Font = Enum.Font.GothamBold
 title.TextSize = 20
@@ -72,7 +72,7 @@ byline.Name = "Byline"
 byline.Size = UDim2.new(1,-22,0,18)
 byline.Position = UDim2.new(0,12,0,36)
 byline.BackgroundTransparency = 1
-byline.Text = "Made by MozilOnTop"
+byline.Text = "discord.gg/ringta"
 byline.TextColor3 = Color3.fromRGB(235,235,238)
 byline.Font = Enum.Font.Gotham
 byline.TextSize = 12
@@ -146,12 +146,12 @@ local function makeButton(parent, text, order, emoji)
 	lbl.TextXAlignment = Enum.TextXAlignment.Left
 	return b
 end
-makeButton(leftCol, "Open Spawner", 1, "🧠")
-makeButton(leftCol, "Execute Event", 2, "⚡")
-makeButton(leftCol, "Set Money", 3, "💰")
-makeButton(leftCol, "Set Rebirth", 4, "🔄")
-makeButton(rightCol, "Execute All Events", 1, "✨")
-makeButton(rightCol, "Spawn Lucky Block", 2, "🍀")
+makeButton(leftCol, "Desync Steal", 1, "🧠")
+makeButton(leftCol, "Anti Hit", 2, "⚡")
+makeButton(leftCol, "Instant Steal", 3, "💰")
+makeButton(leftCol, "Player ESP", 4, "🔄")
+makeButton(rightCol, "Laser Steal", 1, "✨")
+makeButton(rightCol, "Invisible", 2, "🍀")
 makeButton(rightCol, "Set Money", 3, "💰")
 makeButton(rightCol, "Set Rebirth", 4, "🔁")
 local footer = Instance.new("TextLabel")
