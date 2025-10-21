@@ -149,10 +149,10 @@ end
 makeButton(leftCol, "Desync Steal", 1, "🧠")
 makeButton(leftCol, "Anti Hit", 2, "⚡")
 makeButton(leftCol, "Instant Steal", 3, "💰")
-makeButton(leftCol, "Player ESP", 4, "🔄")
+makeButton(leftCol, "Player ESP", 4, "👯‍♀️")
 makeButton(rightCol, "Laser Steal", 1, "✨")
 makeButton(rightCol, "Invisible", 2, "🍀")
-makeButton(rightCol, "Set Money", 3, "💰")
+makeButton(rightCol, "Player ESP", 3, "💰")
 makeButton(rightCol, "Set Rebirth", 4, "🔁")
 local footer = Instance.new("TextLabel")
 footer.Name = "Footer"
